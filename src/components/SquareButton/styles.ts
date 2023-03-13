@@ -9,8 +9,8 @@ export const styles = StyleSheet.create({
         alignItems: 'center',
         backgroundColor: theme.PRODUTO.BLUE_DARK,
         borderRadius: 5,
-        padding: 15,
+        padding: 18,
+        gap: 8,
         aspectRatio: 1,
-
     }
 })
