@@ -17,7 +17,11 @@ export const styles = StyleSheet.create({
     },
     taskContainer: {
         flex: 4,
-        
+        width: '100%',
+        alignItems: "center",
         backgroundColor: theme.BASE.GRAY600,
+        marginHorizontal: 10,
+        //padding: 10,
+        
     },
 })

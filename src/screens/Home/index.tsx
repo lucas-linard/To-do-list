@@ -3,7 +3,8 @@ import { View,SafeAreaView,  Text } from "react-native";
 import {styles} from "./styles";
 
 import { Header } from "../../components/Header";
-import { NewTask } from "../../components/NewTask";
+import { TaskInput } from "../../components/TaskInput";
+import { TaskSwitch } from "../../components/TaskSwitch";
 export default function Home() {
 
     return(
@@ -13,8 +14,8 @@ export default function Home() {
             <Header/>
             </View>
             <View style={styles.taskContainer}>
-
-            <NewTask/>
+            <TaskInput/>
+                <TaskSwitch/>
             </View>
         </SafeAreaView>
     )
