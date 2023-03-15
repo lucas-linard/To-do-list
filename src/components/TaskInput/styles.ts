@@ -16,7 +16,7 @@ export const styles = StyleSheet.create({
     textInput: {
         flex: 1,
         backgroundColor: theme.BASE.GRAY500,
-        color: theme.BASE.GRAY700,
+        color: theme.BASE.GRAY300,
         gap: 8,
         padding: 16,
         borderRadius: 6,
