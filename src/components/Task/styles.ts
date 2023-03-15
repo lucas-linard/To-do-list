@@ -5,8 +5,8 @@ import theme from "../../theme";
 export const styles = StyleSheet.create({
     container:{
         width: '90%',
-        justifyContent: 'space-between',
         flexDirection: 'row',
+        justifyContent: 'space-between',
         alignItems: 'center',
         paddingVertical: 12,
         paddingLeft: 12,
@@ -24,6 +24,7 @@ export const styles = StyleSheet.create({
         lineHeight: 20,
     },
     textDone:{
+        width: '80%',
         color: theme.BASE.GRAY300,
         textDecorationLine: 'line-through',
         fontSize: 14,
