@@ -5,8 +5,7 @@ import theme from "../../theme";
 export const styles = StyleSheet.create({
     mainContainer: {
         flex: 1,
-        backgroundColor: theme.BASE.GRAY300,
-        padding: 24,
+        backgroundColor: theme.BASE.GRAY700,
         alignItems: 'center',
         
     },
