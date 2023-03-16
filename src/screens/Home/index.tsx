@@ -8,7 +8,7 @@ import { Header } from "../../components/Header";
 import { Task } from "../../components/Task";
 import { EmptyTask } from "../../components/EmptyTask";
 import { TaskInput } from "../../components/TaskInput";
-import { TaskSwitch } from "../../components/TaskSwitch";
+import { TaskCounter } from "../../components/TaskCounter";
 
 interface ITask {
   id: string | number[];
@@ -81,7 +81,7 @@ export default function Home() {
           onChangeText={(text) => setTaskText(text)}
           onAdd={() => handleAddTask(taskText)}
         />
-        <TaskSwitch Created={counter.created} Completed={counter.completed} />
+        <TaskCounter Created={counter.created} Completed={counter.completed} />
         <FlatList
           data={tasks}
           renderItem={({ item }) => (
